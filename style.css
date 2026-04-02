@@ -257,3 +257,14 @@ table th {
   background: #34495e;
   color: #f1f1f1;
 }
+.preview {
+  padding: 40px;
+  text-align: center;
+}
+.preview h2 {
+  margin-bottom: 15px;
+}
+.preview p {
+  max-width: 600px;
+  margin: 0 auto 20px;
+}
