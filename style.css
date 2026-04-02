@@ -43,3 +43,100 @@ footer {
   background: #2c3e50;
   color: white;
 }
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f9f9f9;
+  color: #333;
+}
+
+header {
+  background: #2c3e50;
+  padding: 10px;
+}
+
+header h1 {
+  color: #fff;
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.hero {
+  text-align: center;
+  padding: 60px;
+  background: #3498db;
+  color: white;
+}
+
+.btn {
+  background: #2980b9;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+.btn:hover {
+  background: #1f6391;
+}
+
+section {
+  padding: 20px;
+}
+
+.project-card {
+  background: white;
+  padding: 20px;
+  margin: 15px 0;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.skill {
+  margin: 10px 0;
+}
+.progress {
+  background: #eee;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.bar {
+  background: #3498db;
+  height: 10px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+form input, form textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+form button {
+  background: #3498db;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+form button:hover {
+  background: #2980b9;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background: #2c3e50;
+  color: white;
+}
